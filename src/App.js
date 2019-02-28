@@ -4,12 +4,18 @@ import './App.css';
 
 class App extends Component {
   render() {
+    let name = "joe"
+    name = 'bob'
+    console.log(name)
+    const names = ['Peter', 'Bob']
+    names.push("Jenny")
+    console.log(names)
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Добро пожаловать в React
           </p>
           <a
             className="App-link"
@@ -21,7 +27,7 @@ class App extends Component {
           </a>
         </header>
       </div>
-    );
+    ); 
   }
 }
 
